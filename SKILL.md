@@ -33,3 +33,11 @@ It should support an office query such as `sesh-hound <office> --json`.
 If the tool misses a known session, retain the smallest reproducible office
 query and expected canonical id, then open a bounded discovery issue. Do not
 work around the defect by treating storage paths as the public interface.
+
+## Discovery limits
+
+Discovery should be complete enough to identify a real next transport action,
+but it does not replace independent verification by the discovered agent. A
+live-background session may need dedicated tool support to appear in office
+results; report that gap as a discovery feature rather than silently using
+storage as an alternate interface.
