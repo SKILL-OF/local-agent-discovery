@@ -1,6 +1,8 @@
 ---
 name: local-agent-discovery
 description: Understand and apply local coding-agent session discovery from an office directory; use when identifying resumable Claude, Codex, or Copilot sessions without contacting them.
+scope: any agent that needs to know which local agent sessions exist for an office folder, without contacting, resuming, or controlling them
+trigger: the moment a task asks "who else is working here", "which session is that agent", "is that agent resumable", or you are about to search session storage paths by hand — then follow this procedure and use sesh-hound (skill: sesh-hound) as the tool
 ---
 
 # Local agent discovery
